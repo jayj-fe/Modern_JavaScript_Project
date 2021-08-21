@@ -48,3 +48,8 @@ a{
 #app>a{
     margin:0 0 2rem;
 }
+
+#url{
+    padding:3px;
+    font-weight:700;
+}

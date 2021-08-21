@@ -7,7 +7,7 @@ export default class extends AbstractView {
     }
 
     async getHtml() {
-        console.log(this.params.id);
+        // console.log(this.params.id);
 
         return `
             <a href="/posts" class="nav__link" data-link>목록으로 돌아가기</a>

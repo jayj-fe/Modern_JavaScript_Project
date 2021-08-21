@@ -18,5 +18,6 @@
 > [예제 브라우저에서 확인하기](https://jayj-fe.github.io/Modern_JavaScript_Project/?Javascript_SPA/frontend)
 
 - 프레임워크를 사용하지 않고 자바스크립트만으로 SPA 만들기
+- Use Skills : express, webpack, babel
 
 <br>

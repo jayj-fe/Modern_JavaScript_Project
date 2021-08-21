@@ -61,7 +61,7 @@ const router = async () => {
     // console.log(match);
 
     const view = new match.route.view(getParams(match));
-
+    document.getElementById("url").innerHTML = `Current URL : <span style="color:blue">${match.result[0]}</span>`;
     document.querySelector("#app").innerHTML = await view.getHtml();
 }
 

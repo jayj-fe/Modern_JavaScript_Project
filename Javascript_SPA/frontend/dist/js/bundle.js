@@ -300,10 +300,9 @@ var _default = /*#__PURE__*/function (_AbstractView) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                console.log(this.params.id);
                 return _context.abrupt("return", "\n            <a href=\"/posts\" class=\"nav__link\" data-link>\uBAA9\uB85D\uC73C\uB85C \uB3CC\uC544\uAC00\uAE30</a>\n            <h1>Post - ".concat(this.params.id, "</h1>\n            <p>\n                Posts Page\n            </p>\n        "));
 
-              case 2:
+              case 1:
               case "end":
                 return _context.stop();
             }
@@ -6603,13 +6602,14 @@ var router = /*#__PURE__*/function () {
 
 
             view = new match.route.view(getParams(match));
-            _context.next = 7;
+            document.getElementById("url").innerHTML = "Current URL : <span style=\"color:blue\">".concat(match.result[0], "</span>");
+            _context.next = 8;
             return view.getHtml();
 
-          case 7:
+          case 8:
             document.querySelector("#app").innerHTML = _context.sent;
 
-          case 8:
+          case 9:
           case "end":
             return _context.stop();
         }
